@@ -5,3 +5,5 @@ Created venv with command:
 python3 -m venv ./venv
 source ./venv/bin/activate
 pip install rasa
+
+rasan run -m models --enable-api --cors "*"
