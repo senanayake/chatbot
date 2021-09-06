@@ -1,0 +1,7 @@
+Following method from 
+https://www.youtube.com/watch?v=eJMT2FovZsM
+
+Created venv with command:
+python3 -m venv ./venv
+source ./venv/bin/activate
+pip install rasa
