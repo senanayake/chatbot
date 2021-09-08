@@ -1,0 +1,7 @@
+version: '3'
+services:
+  rasa-app:
+    restart: always
+    build: .
+    ports:
+      - "5005:5005"

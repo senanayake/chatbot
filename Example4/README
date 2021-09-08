@@ -16,3 +16,10 @@ docker run --user 1000 -it -v $(pwd):/app rasa/rasa train
 
 docker run --user 1000 -it -v $(pwd):/app rasa/rasa shell
 
+
+Running a model in the container.
+
+docker run -it  -p 5005:5005 20a9a869ced8 run --model app/models/20210908-061944.tar.gz
+
+
+/Users/chrissenanayake/dev/hackathon/Repo/chatbot/Example4/models/20210908-061944.tar.gz
