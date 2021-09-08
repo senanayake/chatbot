@@ -24,6 +24,10 @@ Example 3
 -  docker-compose pull &&  docker-compose build &&  docker-compose up -d
 - browse to http://localhost:5005/ create an account and login.
 
-
-
+Example 4
+- Merge Example 2 and Example 3 into a new working example
+- Run Rasa in a container. Make the other containers dependent on the rasa container chatbot.
+- Move the chatbot pop up UI into the Flask data able main page.
+- Rasa docker info https://rasa.com/docs/rasa/docker/building-in-docker
+ - investigate this approach https://rasa.com/blog/custom-rasa-nlu-docker-container/
 
