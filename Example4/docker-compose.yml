@@ -8,5 +8,10 @@ services:
       - 5005:5005
     volumes:
       - ./:/app
-    command:
-      - run
+  webapp:
+    build:     
+      dockerfile: Dockerfile
+      context: ./webapp
+    ports:
+      - 5000:5000
+    
