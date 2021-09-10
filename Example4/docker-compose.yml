@@ -1,7 +1,12 @@
-version: '3'
+version: '3.0'
 services:
-  rasa-app:
-    restart: always
-    build: .
+  rasa:
+    build:     
+      dockerfile: Dockerfile
+      context: ./rasabot
     ports:
-      - "5005:5005"
+      - 5005:5005
+    volumes:
+      - ./:/app
+    command:
+      - run

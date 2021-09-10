@@ -1,6 +1,5 @@
 FROM rasa/rasa
 
-
-COPY . ./app
 WORKDIR /app
-EXPOSE 5050
+COPY . ./app
+EXPOSE 5005

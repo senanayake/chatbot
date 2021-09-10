@@ -31,3 +31,8 @@ Example 4
 - Rasa docker info https://rasa.com/docs/rasa/docker/building-in-docker
  - investigate this approach https://rasa.com/blog/custom-rasa-nlu-docker-container/
 
+
+ Other notes:
+
+ Delete all docker images: docker rmi -f $(docker images -a -q)
+
