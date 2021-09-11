@@ -33,3 +33,8 @@ stories:
   steps:
   - intent: meeting_goals
   - action: utter_goals
+
+- story: funeral hardship
+  steps:
+  - intent: express_funeral_hardship
+  - action: utter_funeral_hardship_response

@@ -16,6 +16,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - express_funeral_hardship
 
 - intent: goodbye
   examples: |
@@ -91,6 +92,17 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+
+- intent: express_funeral_hardship
+  examples: |
+    - I am sick
+    - I have to pay for my wife's funeral
+    - I have to pay for my husbands's funeral
+    - I have to pay for my son's funeral     
+    - I have to pay for my daughter's funeral
+    - I have to pay for my fathers's funeral
+    - I have to pay for my mothers's funeral    
+
 
 - intent: bot_challenge
   examples: |
